@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: #134f94;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+@media (max-width: 768px)  {
+
+  html, body {
+    margin: 10;
+    padding: 10;
+    border: 10;
+    font: inherit;
+    font-size: 100%;
+  }
+  
+  body {
+    background: #b1bbc5;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    color: #333333;
+    line-height: 1;
+  }
+  
+}

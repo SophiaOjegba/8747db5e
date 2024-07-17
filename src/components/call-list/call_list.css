@@ -1,0 +1,55 @@
+.callList {
+  height: 24.4rem; 
+  overflow-y: scroll;
+  padding: 10px;
+ 
+}
+.callList::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.callList::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.callList::-webkit-scrollbar-thumb {
+  background:#888; 
+  border-radius: 5px; 
+}
+
+.callList::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.callList {
+  scrollbar-width: thin; 
+  scrollbar-color: white white;
+}
+
+.callList {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.dateGroup {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.dateHeader {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.callListItems {
+  list-style-type: none;
+  padding: 0;
+}
+
+.callGroupItem {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}

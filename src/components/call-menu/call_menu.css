@@ -1,0 +1,96 @@
+.menuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  color: rgb(58, 53, 53);
+}
+
+.phoneActivity {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+}
+
+.phoneIcon {
+  border: 2px solid lawngreen;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  color: lawngreen;
+}
+
+.activityTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 0 0.5rem;
+}
+
+.menuItem {
+  flex: 1;
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleMenuItem {
+  cursor: pointer;
+}
+
+.singleMenuItem p {
+  font-size: 0.8rem;
+}
+
+.shuffleIcon {
+  cursor: pointer;
+  font-size: 1.1rem;
+  transform: rotate(90deg);
+  
+}
+
+.archiveCalls {
+  padding: 10px 10px;
+  border: 0.5px solid rgb(211, 208, 208);
+  border-radius: 0 0 15px 15px;
+  margin: 0 10px;
+}
+
+.archiveCalls button {
+  color: rgb(110, 104, 104);
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  font-size: 1rem;
+  background: white;
+  cursor: pointer;
+}
+
+.archiveCalls button span {
+  font-size: 0.9rem;
+  margin: 0 0 0 0.7rem;
+}
+
+body.dark-mode {
+  background: #444;
+  color: #fff;
+}
+
+.activityTitle.dark {
+  background: #444;
+  color: #fff;
+}
+
+.menuItem.dark {
+  background-color: #4b4a4a;
+  color: #fff;
+}
+
+body.dark-mode .container {
+  background: #444;
+  color: #fff;
+}
+
+.shuffleIcon.dark {
+  color: #fff;
+}

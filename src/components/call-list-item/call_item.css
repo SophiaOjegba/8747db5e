@@ -1,0 +1,94 @@
+.singleCallItem {
+  border: 0.5px solid rgb(211, 208, 208);
+  margin: 0.7rem 0 0 0;
+  padding: 12px 4px 12px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.singleCall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleCallItem:hover {
+  border: 1px solid rgb(110, 108, 108);
+}
+
+.callIcon {
+  flex: 0.12;
+  font-size: 1.2rem; 
+  position: relative;
+  color: rgb(110, 104, 104);
+  margin-right: 1rem; 
+}
+
+.callIcon .faPhone {
+  font-size: 1.5rem; 
+}
+
+.callIcon .faArrowDown,
+.callIcon .faArrowUp, .arrow {
+  position:absolute;
+  font-size: 1rem; 
+  top: -0.5rem; 
+  left: 0.5rem; 
+}
+
+.callData {
+  flex: 0.65;
+}
+
+.callIdentity {
+  font-weight: bold;
+  line-height: 3px;
+}
+
+.callIdentity span {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  margin: 0 0 0 0.3rem;
+}
+
+.callIdentityDesc {
+  line-height: 3px;
+  font-size: 0.7rem;
+}
+
+.timeStamp {
+  flex: 0.23;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid rgb(224, 218, 218);
+  margin: 1rem 0;
+}
+
+.callModal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.callModal button {
+  background: none;
+  border: 1px solid rgb(224, 218, 218);
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.callModal button:hover {
+  background: rgb(137, 233, 145);
+}
+
+.callModal button span {
+  margin: 0 0 0 0.4rem;
+}
